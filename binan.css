@@ -25,6 +25,7 @@ p{
 #drop2{
     display: none;
     background-color: whitesmoke;
+
 }
 #tem2:hover > #drop2{
     display: grid;
@@ -32,7 +33,23 @@ p{
 #drop3{
     display: none;
     background-color: whitesmoke;
+    
+
 }
 #tem3:hover > #drop3{
+    display: grid;
+}
+#drop4{
+    display: none;
+    background-color: whitesmoke;
+}
+#tem4:hover > #drop4{
+    display: grid;
+}
+#drop5{
+    display: none;
+    background-color: whitesmoke;
+}
+#tem5:hover > #drop5{
     display: grid;
 }
