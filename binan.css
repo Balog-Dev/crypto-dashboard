@@ -1,7 +1,7 @@
-.container{
-     /* background-color: rgb(255, 255, 255);  */
+.container-fluid{
+     background-color: rgb(255, 255, 255); 
     height: 70px;
-    background-color: red;
+    
     
 }
 .pix{
@@ -13,7 +13,7 @@
 }
 #drop{
     display: none;
-    background-color: wheat;
+    background-color: white;
     
 }
 #tem:hover > #drop{
@@ -24,7 +24,7 @@ p{
 }
 #drop2{
     display: none;
-    background-color: whitesmoke;
+    background-color: white;
 
 }
 #tem2:hover > #drop2{
@@ -32,7 +32,7 @@ p{
 }
 #drop3{
     display: none;
-    background-color: whitesmoke;
+    background-color: white;
     
 
 }
@@ -41,15 +41,51 @@ p{
 }
 #drop4{
     display: none;
-    background-color: whitesmoke;
+    background-color: white;
 }
 #tem4:hover > #drop4{
     display: grid;
 }
 #drop5{
     display: none;
-    background-color: whitesmoke;
+    background-color: white;
 }
 #tem5:hover > #drop5{
     display: grid;
+}
+#drop6{
+    display: none;
+    background-color: white;
+}
+#tem6:hover > #drop6{
+    display: grid;
+}
+
+
+
+.layout{
+    background-color: rgb(254, 246, 216);
+    height: 40px;
+}
+.btc{
+    background-color: white;
+    background-image: url(./bbk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding-left: 65px;
+    padding-top: 120px;
+}
+.maque{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+.jara{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    height: 200px;
 }
