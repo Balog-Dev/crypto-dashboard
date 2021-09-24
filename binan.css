@@ -1,0 +1,38 @@
+.container{
+     /* background-color: rgb(255, 255, 255);  */
+    height: 70px;
+    background-color: red;
+    
+}
+.pix{
+    width: 25px;
+    height: 20px;
+}
+.pix:hover > .pix{
+    color: goldenrod;
+}
+#drop{
+    display: none;
+    background-color: wheat;
+    
+}
+#tem:hover > #drop{
+    display: flex;
+}
+p{
+    color: gray;
+}
+#drop2{
+    display: none;
+    background-color: whitesmoke;
+}
+#tem2:hover > #drop2{
+    display: grid;
+}
+#drop3{
+    display: none;
+    background-color: whitesmoke;
+}
+#tem3:hover > #drop3{
+    display: grid;
+}
